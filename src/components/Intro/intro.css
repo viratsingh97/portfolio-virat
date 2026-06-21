@@ -1,5 +1,5 @@
 #intro{
-    height: calc(100vh-4rem);
+    height: calc(100vh - 4rem);
     width: 100vw;
     max-width: 75rem;
     margin: 0 auto;
@@ -14,7 +14,7 @@
     object-fit: cover;
     height: 100vh;
     padding: 50px;
-    padding: right 10%;;
+    padding-right:1%;
 }
 .introContent{
     height: 100vh;

@@ -22,7 +22,6 @@ const Navbar = () => {
       }}>
         <img src={contactImg} alt="" className='desktopMenuImg'/>Contact Me
       </button>
-      <button></button>
       <img src={Menu} alt="" className='mobMenu' onClick={()=>setShowMenu(!showMenu)}/>
       <div className="navMenu" style={{display:showMenu?'flex':'none'}}>
           <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem">Home</Link>
